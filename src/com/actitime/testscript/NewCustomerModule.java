@@ -33,7 +33,11 @@ public class NewCustomerModule extends NewBaseClass {
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		tl.getOurcompany().click();
 		tl.getCreatecust().click();
-		
+		}
+	
+	@Test
+	public void testModifyCustomer() {
+		Reporter.log("Modify Customer",true);
 	}
 
 }
