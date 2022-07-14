@@ -35,10 +35,10 @@ public class CustomerModule extends BaseClass {
 		t.getOurcompany().click();
 		t.getCreatebtn().click();	
 		
-/*		WebDriverWait wait=new WebDriverWait(driver, 10);
+	WebDriverWait wait=new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.textToBePresentInElement(t.getActualcustomer(), customername));
 		String actualcusttext = t.getActualcustomer().getText();
-	Assert.assertEquals(actualcusttext, customername);  */
+	Assert.assertEquals(actualcusttext, customername);  
 	}
 
 }
